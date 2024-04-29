@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jacquard+24&display=swap');
+
+:root{
+
+    --branco: white;
+    --cor--de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: "Jacquard 12 Charted", system-ui;
+    --roboto-mono: "Jacquard 24", system-ui;
+    
+    
+    }
+    
+    body{
+        color: var(--branco);
+        background-color: var(--cor--de-fundo);
+        font-family: "Jacquard 24", system-ui;
+    }
+    
+    .titulo_principal{
+    
+        font-family: "Jacquard 24", system-ui;
+        font-size: 32px;
+    }
+    
+    .titulo_secundario {
+    
+        font-size: 24px;
+    }
+    
+    .conteudo-titulo{
+    
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .conteudo-senha {
+    
+        margin-top: 80px;
+        background-color: var(--fundo-senha);
+        padding: 24px;
+        border-bottom: 6px solid var(--borda);
+    }
+    
+    #campo-senha {
+    
+        background-color: var(--fundo-senha);
+        border: none;
+        color: var(--branco);
+        font-family: "Jacquard 24", system-ui;
+        font-size: 40px;
+    }
